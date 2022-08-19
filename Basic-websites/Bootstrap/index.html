@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+	rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+	crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+	crossorigin="anonymous"></script>
+</head>
+<body class="container-fluid" style="height: 2000px;">
+
+
+	<nav class="navbar navbar-expand-sm bg-secondary p-auto text-nowrap justify-content-between fixed-top">
+		<ul class="navbar-nav ms-4">
+			<li class="nav-item">
+				<a href="#" class="nav-link">item 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">item 2</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">item 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">item 4</a>
+			</li>
+		</ul>
+
+		<form class="d-flex">
+			<input type="text" class="form-control me-2" id="object" placeholder="Search">
+			<button type="submit" class="btn btn-success me-4">Search</button>
+		</form>
+	</nav>
+	
+
+<br><br><br><br>
+
+							<!---------- CAROUSEL EXAMPLE ----------->
+	<div class="carousel slide" id="demo" data-bs-ride="carousel">
+
+		<!-- position indicators -->
+		<div class="carousel-indicators">
+			<button type="button" class="carousel-button active" data-bs-target="#demo" data-bs-slide-to="0"></button>
+			<button type="button" class="carousel-button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+			<button type="button" class="carousel-button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+			<button type="button" class="carousel-button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+		</div>
+
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="./Carousel/img-1.jpg" alt="image 1" class="d-block" style="width: 100%;">
+				<div class="carousel-caption">
+					<h2>Horizon Game</h2>
+					<p>This is Aloy</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./Carousel/img-2.jpg" alt="image 2" class="d-block" style="width: 100%;">
+				<div class="carousel-caption">
+					<h2>Call of duty Game</h2>
+					<p>This is a soldier</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./Carousel/img-3.jpg" alt="image 3" class="d-block" style="width: 100%;">
+				<div class="carousel-caption">
+					<h2>Future Soldier</h2>
+					<p>This is a soldier</p>
+				</div>
+			</div>	
+			<div class="carousel-item">
+				<img src="./Carousel/img-4.jpg" alt="image 4" class="d-block" style="width: 100%;">
+				<div class="carousel-caption">
+					<h2>Arcane</h2>
+					<p>This is Jinx</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- navigtion buttons-->
+		 <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</button>
+		<button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</button>
+	</div>
+<h1>A Carousel example</h1>
+							<!---------- CAROUSEL EXAMPLE END ----------->
+
+
+
+							<!---------- MODAL EXAMPLE ----------->
+	<button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#myModal">Modal Toggle</button>
+
+
+	<div class="modal fade" id="myModal">
+
+		<div class="modal-dialog modal-dialog-scrollable">
+
+			<div class="modal-content">
+			
+				<div class="modal-header">
+					<h3 class="modal-title">The modal head</h3>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+
+				<div class="modal-body">
+					THIS IS THE MODAL BODY, where information is displayed
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+					Tempore aliquid provident, quae dolores porro mollitia odio.
+					Explicabo ut exercitationem, neque at cum odit quibusdam
+					possimus! Obcaecati, tempore. Deserunt dolor necessitatibus
+					non temporibus? Nostrum rem velit deleniti similique possimus,
+					itaque eum libero! Animi perspiciatis rerum a! Consectetur
+					beatae commodi obcaecati voluptatibus.
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit
+					 Atque alias similique praesentium minus odio necessitatibus
+					is totam.
+					delectus harum, dolorum iusto sunt culpa natus deleniti
+					ccusamus quibusdam voluptas velit, pariatur possimus molestiae
+					dolore modi adipisci. Sapiente rem laboriosam, tenetur
+					praesentium aut iusto quas.
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-success mt-5" data-bs-dismiss="modal">Exit</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+								<!---------- MODAL EXAMPLE END ----------->
+<br>
+
+					<!------- ToolTip example -------->
+					<button type="button" class="btn btn-secondary mt-5" data-bs-toggle="tooltip" data-bs-placement="right" title="Tobi is hovering">tooltip</button>
+
+					<script>
+						// Initialize tooltips
+						// This is a code needed to style the information displayed  once a button is hovered(tooltip)
+						var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+						var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+						  return new bootstrap.Tooltip(tooltipTriggerEl)
+						})
+					</script>
+					<!------- ToolTip example End -------->
+<br>
+
+					<!------- Popover example -------->
+					<button type="button" class="btn btn-primary mt-5"
+					data-bs-toggle="popover" data-bs-placement="bottom"
+					title="Tobi just clicked" data-bs-trigger="focus hover"
+					data-bs-content="This is the Popover content">Popover</button>
+
+					<script>
+						// This is a code needed to style the information that pops up once a button is clicked(popover)
+						var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+						var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  						return new bootstrap.Popover(popoverTriggerEl)
+						})
+					</script>
+					<!------- Popover example End -------->
+<br><br><br>
+								<!------- TOAST EXAMPLE ------->
+								<button class="btn btn-success" id="toastbtn">Toast</button>
+								<div class="toast ">
+									<div class="toast-header">
+										<h4 class="me-auto">this is the heading</h4>
+										<button type="button" class="btn btn-close" data-bs-dismiss="toast"></button>
+									</div>
+									<div class="toast-body">
+										this the main content <br>
+										this is the main content also
+									</div>
+								</div>
+
+								<script>
+									// this code makes the toast class works
+									document.getElementById("toastbtn").onclick = function() {
+									  var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+									  var toastList = toastElList.map(function(toastEl) {
+										return new bootstrap.Toast(toastEl)
+									  })
+									  toastList.forEach(toast => toast.show()) 
+									}
+									</script>
+								<!------- TOAST EXAMPLE END ------->
+<br><br><br>
+
+								<!------- BUTTON WITH DISPLAYABLE ITEM EXAMPLE ------->
+
+	<ul class="nav nav-pills">
+		<li class="nav-item">
+			<a class="nav-link active" data-bs-toggle="pill" href="#tab1">item 1</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link" data-bs-toggle="pill" href="#tab2">item 2</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link" data-bs-toggle="pill" href="#tab3">item 3</a>
+		</li>
+	</ul>
+
+	<div class="tab-content">
+		<div class="tab-pane active" id="tab1"> <br>
+			<p>Lorem ipsum, dolor sit amet consectetur
+			adipisicing elit. Soluta, aspernatur! Lorem
+			ipsum dolor sit amet consectetur adipisicing elit.
+			Animi, officiis!</p>
+		</div>
+
+		<div class="tab-pane fade" id="tab2"> <br>
+			<p>Lorem ipsum dolor sit amet consectetur
+			adipisicing elit. Inventore, aperiam?</p>
+		</div>
+
+		<div class="tab-pane fade" id="tab3"> <br>
+			Lorem ipsum dolor sit amet consectetur
+			<p>adipisicing elit. Ducimus, cupiditate!</p>
+		</div>
+	</div>
+								<!------- BUTTON WITH DISPLAYABLE ITEM EXAMPLE  END  ------->
+
+
+
+								<!------- DROPDOWN BUTTON EXAMPLE ------->
+
+	<div class="dropdown">
+		 <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">select option</button>
+		<ul class="dropdown-menu">
+			<li>
+				<a class="dropdown-item">option 1</a>
+			</li>
+			<li>
+				<a class="dropdown-item">option 2</a>
+			</li>
+			<li>
+				<a class="dropdown-item">option 3</a>
+			</li>
+			<li>
+				<a class="dropdown-item">option 4</a>
+			</li>
+		</ul>
+	</div>
+								<!------- DROPDOWN BUTTON EXAMPLE END ------->
+
+
+
+
+		<div class="btn-group">
+			<a href="#demo111" class="btn btn-success mt-4" data-bs-toggle="collapse">Testing</a>
+			<a href="#demo222" class="btn btn-success mt-4" data-bs-toggle="collapse">Testing</a>
+		</div>
+		<div id="demo111" class="collapse">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quo?
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum.
+		</div>
+		<div id="demo222" class="collapse">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quo?
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum.12345678676456
+		</div>
+
+
+
+
+							<!------- ACCORDION EXAMPLE ------->
+
+ <div class="container mt-3" id="accordion">
+	<div class="card">
+		<div class="card-header">
+			<a href="#demo1" class="btn" data-bs-toggle="collapse">Part 1</a>
+		</div>
+		<div class="collapse card-body" data-bs-parent="#accordion" id="demo1">Lorem ipsum dolor sit amet
+			adipisicing elit. Repellat, perferendis.</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">
+			<a href="#demo2" data-bs-toggle="collapse" class="btn">Part 2</a>
+		</div>
+		<div id="demo2" class="collapse card-body" data-bs-parent="#accordion">
+			Lorem ipsum, dolor sit amet consectetur adipisicing
+			elit. Odio, harum.
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">
+			<a href="#demo3" data-bs-toggle="collapse" class="btn">Part 3</a>
+		</div>
+		<div id="demo3" class="collapse card-body" data-bs-parent="#accordion">
+			Lorem ipsum, dolor sit amet consectetur adipisicing
+			elit. Odio, harum.
+		</div>
+	</div>
+</div>
+							<!------- ACCORDION EXAMPLE END ------->
+<br><br>
+
+		<div class="offcanvas offcanvas-start" id="demodd">
+		<div class="offcanvas-header">
+			<h1 class="offcanvas-title">Shobam</h1>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+		</div>
+		<div class="offcanvas-body">
+			<p>Lorem ipsum dolor sit amet.</p>
+			<p>Lorem ipsum dolor sit amet.</p>
+			<p>Lorem ipsum dolor sit amet.</p>
+			<p>Lorem ipsum dolor sit amet.</p>
+			<button class="btn btn-primary" type="button">Button</button>
+		</div>
+		</div>
+		<button class="btn btn-secondary" data-bs-target="#demodd" data-bs-toggle="offcanvas">Toggle canvas</button>
+</body>
+</html>

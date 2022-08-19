@@ -1,0 +1,81 @@
+body {
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+	background-color: rgb(253, 251, 251);
+}
+
+.container {
+	border: 0px solid black;
+	text-align: center;
+	padding: 0;
+	margin-left: 20%;
+	margin-right: 20%;
+	box-shadow: -20px 20px 30px gray,
+			20px 20px 30px gray; 
+}
+
+.f-block {
+	display: flex;
+	align-items: center;
+}
+.head-text {
+	padding: 2%;
+}
+
+.head-text h4 {
+	opacity: 0.7;
+}
+
+button {
+	padding: 8%;
+	border-radius: 25px;
+	background-color: transparent;
+	transition: 0.2s;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgb(213, 210, 210);
+}
+
+.gadget {
+	background-image: url('images/photography.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	flex: 60vw;
+}
+
+.heading {
+	color: aliceblue;
+	background-color: rgb(44, 40, 40);
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.heading p {
+	border: 1px dotted white;
+	margin-left: 40%;
+	margin-right: 40%;
+	border-bottom: none;
+	border-top: none;
+}
+
+.block img {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 5%;
+	line-height: 50px;
+}

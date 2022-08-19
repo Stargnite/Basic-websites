@@ -1,0 +1,82 @@
+body, html{
+	margin: 0px;
+	height: 100%;
+	font-size: 16px;
+	font-family:'Times New Roman', Times, serif;
+}
+.f-image {
+	background-image: url('images/img1.jpg');
+	min-height: 100%;
+	margin-top: -20px;
+}
+
+.s-image {
+	background-image: url('images/img2.jpg');
+	min-height: 400px;
+}
+
+.t-image {
+	background-image: url('images/img3.jpg');
+	min-height: 400px;
+}
+
+.section {
+	border: 0px solid black;
+	text-align: center;
+	background-color: aliceblue;
+	padding: 2%;
+}
+
+.f-image, .s-image, .t-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.70;
+	position: relative;
+	background-position: fixed;
+
+	background-attachment: fixed;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	text-shadow: 3px 3px black;
+}
+
+.text p {
+	background-color: black;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-transform: uppercase;
+	letter-spacing: 9px;
+	color: aliceblue;
+	font-size: 30px;
+}
+
+
+.light-section {
+	background-color: rgb(182, 220, 225);
+}
+
+.dark-section {
+	background-color: rgb(45, 51, 57);
+	color: aliceblue;
+}
+
+.evening-section {
+	background-color: rgb(113, 88, 88);
+	color: aliceblue;
+}
+
+.second-text p {
+	background: none;
+	color: red;
+}
+
+.third-text p {
+	background: none;
+}

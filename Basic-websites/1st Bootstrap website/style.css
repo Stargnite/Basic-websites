@@ -1,0 +1,295 @@
+:root {
+	--light-orange: rgb(255, 111, 44);
+	--dark-orange: rgb(252, 21, 17);
+	--gray: rgb(63, 44, 44);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(22,13,22);
+}
+
+header {
+  background-image: url("./Carousel/img-3.jpg");
+  /* background-attachment: fixed; */
+  height: 100vh !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 2rem;
+}
+
+.nav-item a {
+  color:rgb(250, 249, 249);
+}
+
+.nav-logo-sm, .toggle-btn {
+  display: none;
+}
+
+h2.logo {
+	color: var(--dark-orange);
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 249, 249);
+}
+
+.header-text h2 {
+  font-size: auto;
+}
+
+.header-text p {
+  font-size: 20px;
+}
+
+.header-text .btn {
+  border-color: var(--dark-orange);
+  font-size: 1.5rem;
+}
+
+.about-section .btn {
+  background-color: var(--light-orange);
+}
+
+.img .abt-image {
+  width: 100%;
+}
+
+.abt-head {
+  border: 3px solid var(--light-orange);
+  text-align: center;
+  width: 200px;
+}
+
+.text-section {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.newsletter {
+  background-color: var(--dark-orange);
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.news-logo i {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.newsletter input {
+  width: 30rem;
+}
+
+.newsletter .btn {
+  background-color: var(--light-orange);
+}
+
+.services-head {
+  border: 3px solid var(--light-orange);
+  align-self: center;
+}
+
+.services-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+
+}
+
+.card {
+  background-color: rgb(32, 30, 30);
+}
+
+.card-footer {
+  background-color: var(--dark-orange);
+  margin-top: 5%;
+}
+
+.rating-cont {
+  background-color: rgb(60, 50, 50);
+}
+
+.ratings h2 {
+  color: var(--dark-orange)
+}
+
+.comments .card {
+  width: 27vw;
+}
+
+.comment-header h3 {
+  color: var(--dark-orange);
+}
+
+.card-header img {
+  width: 5rem;
+}
+
+.profile-name h3 {
+  color: var(--dark-orange);
+}
+
+.bottom-line {
+  width: 40rem;
+  height: 6px;
+  background-color: var(--dark-orange);
+}
+
+.f-links a {
+  text-decoration: none;
+  color: rgb(79, 74, 74);
+}
+
+
+
+
+
+                          /* HOVER EFFECT STYLING */
+.nav-item a:hover {
+  color: rgb(149, 141, 141);
+}
+
+.header-text button:hover {
+  background-color: var(--dark-orange);
+}
+
+.text-section button:hover {
+  background-color: rgb(136, 29, 2);
+}
+
+
+.f-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+  .header-text h2 {
+    font-size: 2.5rem;
+  }
+  .header-text p {
+    font-size: 20px;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .card-header img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .news-logo i {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 908px){
+  header {
+    background-image: none;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .ratings h4 {
+     font-size: 13px;
+  }
+
+  .comments {
+    flex-direction: column;
+    align-items: center;
+  }
+  .comments .card {
+    margin-bottom: 1rem;
+    width: 25rem;
+  }
+
+  .card-header img {
+    width: 5rem;
+    height: 5rem;
+
+  }
+
+  .news-logo i, .bottom-line {
+    display: none;
+  }
+
+  .services-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+                                  /* NAV TOGGLE */
+@media screen and (max-width: 850px){
+  .navbar {
+    display: none;
+  }
+
+  .nav-logo-sm, .toggle-btn {
+    display: block;
+    margin: 1% 3%;
+  }
+  .toggle-btn {
+    color: aliceblue;
+    font-size: x-large;
+  }
+
+  .nav-item a {
+    color:rgb(39, 36, 36);
+  }
+
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-item {
+    margin-bottom: 5%;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 698px){
+  .footer-content {
+    flex-direction: column-reverse;
+    margin-left: 5%;
+  }
+
+  .icons {
+    margin: 5%;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,58 @@
+body {
+	height: 100%;
+	margin: 0;
+}
+
+.image {
+	background-image: url('Images/img2.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	align-items: center;
+
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.image button {
+	background-color: transparent;
+	color: aliceblue;
+	margin-top: 2vh;
+	padding: 1em;
+	border-color: #dc314d;
+	border-radius: 10px;
+	font-size: 20px;
+}
+button:hover {
+	background-color: #dc314d;
+	cursor: pointer;
+}
+
+.block1 {
+	border: 1px solid red;
+	background-color: #dc314d;
+	color: white;
+	padding-left: 100px;
+	padding: 1vh;
+	text-align: center;
+}
+
+.block2 {
+	text-align: center;
+}
+
+.tab {
+	display: flex;
+
+}
+
+@media screen and (max-width:768px) {
+
+	.image p {
+		text-align: center;
+	}
+}

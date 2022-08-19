@@ -1,0 +1,235 @@
+body {
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #434040;
+	color: aliceblue;
+}
+
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.pointers {
+	position: fixed;
+	border: 1px solid #333333;
+	background-color: #333333;
+	padding-left: 5%;
+	color: aliceblue;
+	min-width: 95%;
+
+}
+
+.pointers p {
+	float: left;
+}
+
+.pointers ul {
+	display: flex;
+}
+
+.pointers ul li {
+	transition: .3s;
+	margin-right: 5%;
+	list-style: none;
+}
+
+.pointers ul li:hover {
+	border: 0px solid black;
+	padding: 3px;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #757272;
+}
+
+.guitar {
+	background-image: url('images/Guitar player.jpg');
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.guitar .h-text {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.h-text h1 {
+	font-size: 70px;
+	font-weight: 150;
+}
+
+.h-text h3 {
+	font-size: 30px;
+	flex-wrap: nowrap;
+}
+
+.h-text p {
+	position: fixed;
+}
+
+#music {
+	text-align: center;
+	padding: 5%;
+}
+
+#music h1 {
+	font-size: 50px;
+}
+
+#music h3 {
+	font-size: 30px;
+}
+
+#music p {
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#music button {
+	padding: 2%;
+	background-color: red;
+	color: aliceblue;
+}
+
+#music button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#music img {
+	margin-top: 3%;
+	border-radius: 3%;
+	max-width: 100%;
+}
+
+#video {
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	align-items: center;
+	padding: 5%;
+}
+
+#video h2 {
+	font-size: xx-large;
+}
+
+#video p {
+	line-height: 30px;
+}
+
+#video button {
+	padding: 2%;
+	background-color: rgb(32, 32, 191);
+	color: #000;
+	border: none;
+}
+
+#video button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#video img {
+	max-width: 100%;
+
+}
+
+section {
+	background-image: url('images/nightsky.jpg');
+	background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	min-height: 600px;
+}
+
+section .img-text{
+	padding-left: 5%;
+	padding-top: 10%;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+#gift-card {
+	background-color: #fff;
+	display: flex;
+}
+
+#gift-card img {
+	height: 60vh;
+	width: 50%;
+}
+
+.card-text {
+	color: #000;
+	padding: 2%;
+}
+
+.card-text p {
+	border: 1px solid #000;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-bottom: 3%;
+}
+
+.card-text a {
+	color: green;
+}
+
+.ending {
+	display: flex;
+	background-color: #282827;
+	justify-content: space-between;
+}
+
+.col {
+	padding: 2%;
+}
+
+.col h2 {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-bottom: 2vh;
+}
+
+.col ul {
+	list-style: none;
+}
+
+.col ul li {
+	padding-bottom: 5%;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	#gift-card {
+		flex-direction: column;
+		padding-bottom: 3%;
+	}
+
+	#gift-card img {
+		padding-left: 25%;
+	}
+
+	.ending {
+		display: none;
+	}
+}
